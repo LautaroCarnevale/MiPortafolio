@@ -76,11 +76,13 @@ footer {
 				width: 100%;
 
 				.footer__div__div-2__p {
-					@include footer-p;
+					font-family: Arial, sans-serif;
+					color: #737373;
 				}
 
 				.footer__div__div-2__p2 {
-					@include footer-p;
+					font-family: Arial, sans-serif;
+					color: #737373;
 				}
 
 				.footer__div__p__a {
