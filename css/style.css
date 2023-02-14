@@ -13,8 +13,10 @@ body {
   min-height: 100vh; }
 
 .navbar {
+  background-color: #000;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  height: 75px; }
 
 /*--------------- footer --------------- */
 footer {
@@ -102,3 +104,9 @@ footer {
           width: 100%; }
         footer .contenedor-footer .contenedor-footer-2 .footer__div .footer__div__div .footer__div__div__div-2 {
           width: 100%; } }
+
+.main__section1 {
+  background-image: url(/assets/img/pexels-olia-danilevich-4974915.jpg);
+  width: 100%;
+  height: 1000px;
+  margin: 0; }
