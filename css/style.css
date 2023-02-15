@@ -17,6 +17,13 @@ body {
   position: fixed;
   width: 100%;
   height: 75px; }
+  .navbar .nav-link {
+    color: #fff;
+    padding: 10px; }
+  .navbar .nav-link:hover:not(.active) {
+    background-color: #616060; }
+  .navbar .nav-link {
+    transition: ease 0.12s; }
 
 /*--------------- footer --------------- */
 footer {
@@ -105,8 +112,26 @@ footer {
         footer .contenedor-footer .contenedor-footer-2 .footer__div .footer__div__div .footer__div__div__div-2 {
           width: 100%; } }
 
-.main__section1 {
-  background-image: url(/assets/img/pexels-olia-danilevich-4974915.jpg);
+.main__section1__div {
+  background-image: url(/assets/img/fondo-section1.jpg);
   width: 100%;
-  height: 1000px;
-  margin: 0; }
+  height: 870px;
+  margin-top: 75px; }
+  .main__section1__div .main__section1__div__div {
+    display: flex;
+    height: 870px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .main__section1__div .main__section1__div__div .trabajo {
+      font-size: 25px;
+      font-family: 'Roboto', sans-serif; }
+  .main__section1__div .div__icon-flecha {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    top: -100px; }
+    .main__section1__div .div__icon-flecha .div__div__icon-flecha .icon-felcha {
+      width: 64px; }
